@@ -1,0 +1,111 @@
+.login-form-content{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top:40%;
+    
+  }
+  .logo{
+    background-image: url("../../../assets/logo.png");
+    height: 450px;
+    background-repeat: no-repeat;
+    width: 300px;
+    background-size: 12em;
+    position: absolute;
+    left: 85%;
+    transform: translateX(-50%);
+    top:-569%;
+  }
+  .textfield{
+    /* color:#BBBBBB; */
+    width: 273px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .textfield :active{
+    /* color: #BBBBBB; */
+    border-color: #73787e;
+  
+  }
+  .textfield :hover{
+    /* color: #BBBBBB; */
+    border-color: #232f3e;
+  }
+  .textfield :focus{
+    /* color: #BBBBBB; */
+    border-color: #232f3e;
+  }
+  
+  .textfield2{
+    /* color: #BBBBBB; */
+    width: 273px;
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .textfield2 :active{
+    /* color: #BBBBBB; */
+    border-color: #232f3e;
+  
+  }
+  .textfield2 :hover{
+    /* color: #BBBBBB; */
+    border-color: #232f3e;
+  }
+  .textfield2 :focus{
+    /* color: #BBBBBB; */
+    border-color: #232f3e;
+  }
+  .example-container{
+    width: 60%;
+    
+  }
+
+  .loginButton{
+    width: 130% !important;
+    background-color: #BBBBBB;
+    color: #184A45;
+    padding-left: 45px;
+    font-size: 20px;
+    padding-right: 80px;
+    left: 78%;
+    transform: translateX(-50%);
+    top: 170px;
+    
+  }
+  body{
+    /* background-image: url("../../../assets/image.svg"); */
+    background-color: #184A45;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: relative;
+
+   
+}
+.heading{
+   font-family: Rosario; 
+  font-size:60px;
+  position: absolute;
+  top: -240px;
+  left: -350px;
+  width: 1000px;
+  
+  /* position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top:-950%; */
+  color: rgb(187,187,187);
+  color: linear-gradient(180deg, rgba(187,187,187,1) 26%, rgba(255,255,255,1) 100%);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #184A45;
+  text-shadow: 4px 4px 4px rgba(24, 74, 69, 1);
+}
+.input{
+
+  box-shadow: none;
+  }

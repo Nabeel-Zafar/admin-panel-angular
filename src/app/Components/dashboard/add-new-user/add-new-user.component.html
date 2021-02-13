@@ -1,0 +1,79 @@
+<!-- <button class="Close" mat-button mat-dialog-close style="cursor: pointer; margin-right: 40px; margin-left: 836px;" >
+    <mat-icon aria-hidden="false" aria-label="Example home icon">close</mat-icon>
+  </button>
+  <div style="width:1000px;"> -->
+    <mat-dialog-content class="mat-typography" >
+      <form [formGroup]="userForm">
+
+      <div class="addNewUser-form-wrapper">      
+        <!-- First Name -->
+        <!-- <div class="add-new-user-input-wrapper">
+          <mat-label class='add-new-user-text-box-label'>
+            Name: <span style="color: red;">*</span> 
+          </mat-label>
+          <span>
+              <mat-form-field appearance="outline" class='add-new-user-s-form-field'>
+                  <input matInput [(ngModel)]="Name" type="text" appAlphabetOnly formControlName="Name">
+              </mat-form-field>
+          </span>
+        </div> -->
+      
+         <!-- Last Name -->
+         <!-- <div class="add-new-user-input-wrapper">
+          <mat-label class='add-new-user-text-box-label'>
+            KE Account: <span style="color: red;">*</span> 
+          </mat-label>
+          <span>
+              <mat-form-field appearance="outline" class='add-new-user-s-form-field'>
+                  <input matInput [(ngModel)]="KeAccount" appAlphabetOnly type="text" formControlName="KeAccount">
+              </mat-form-field>
+          </span>
+         </div> -->
+      
+          <!-- Middle Name -->
+  
+          <div class="add-new-user-input-wrapper">
+            <mat-label class='add-new-user-text-box-label'>Email: </mat-label>
+            <span>
+                <mat-form-field appearance="outline" class='add-new-user-s-form-field'>
+                    <input matInput [(ngModel)]="email" appAlphabetOnly type="email" formControlName="email" #emailSignup>
+                </mat-form-field>
+            </span>
+           </div>
+      
+           <!-- Employee ID -->
+          <!-- <div class="add-new-user-input-wrapper">
+            <mat-label class='add-new-user-text-box-label'>
+                Phone : <span style="color: red;">*</span> 
+            </mat-label>
+            <span>
+                <mat-form-field appearance="outline" class='add-new-user-s-form-field'>
+                    <input matInput [(ngModel)]="Phone" type="number" formControlName="Phone">
+                </mat-form-field>
+            </span>
+           </div> -->
+      
+           <!-- National ID -->
+          <div class="add-new-user-input-wrapper">
+            <mat-label class='add-new-user-text-box-label'>Password: </mat-label>
+            <span>
+                <mat-form-field appearance="outline" class='add-new-user-s-form-field'>
+                    <input matInput [(ngModel)]="password" type="password" formControlName="password" #passwordSignup>
+                </mat-form-field>
+            </span>
+           </div>
+    
+      </div>
+
+  
+      <!-- <mat-dialog-actions align="center"> -->
+          <div align="center">
+        <button mat-raised-button color="primary" class="add-new-user-save-btn" [disabled]="!userForm.valid " (click)="onSignup(emailSignup.value,passwordSignup.value)" >Save</button>
+            </div>
+      <!-- </mat-dialog-actions> -->
+  
+    </form>
+  
+</mat-dialog-content>
+      
+      <!-- </div> -->

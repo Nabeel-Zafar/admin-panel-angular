@@ -1,0 +1,100 @@
+.add-new-user-header{
+    display: flex;
+    align-items: center;
+    background: #0e2f2e;
+    color: #fff;
+}
+.add-new-user-heading{
+    margin-left: 20px; 
+    margin-top: 15px;
+}
+.add-new-user-users{
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.add-new-user-create-users{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+/* Add New user FORM */
+.addNewUser-form-wrapper{
+    /* float: left; */
+    margin-left: 20px;
+}
+.add-new-user-input-wrapper{
+    width:470px;
+    margin: 0px;
+    display: flex;
+    align-items: baseline;
+}
+
+.add-new-user-text-box-label{
+    width:110px;
+}
+.add-new-user-s-form-field  ::ng-deep .mat-form-field-infix {
+    margin-top: -10px;
+    width: 270px;
+}
+.add-new-user-s-form-field{
+    margin: 0px;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+}
+/* .mat-radio-outer-circle .mat-radio-button .mat-accent .mat-radio-checked .mat-radio-outer-circle {
+    border-color: #3c928c !important;
+}
+.mat-radio-inner-circle .mat-radio-button .mat-accent .mat-radio-checked{
+    background-color: #3c928c !important;
+    color: black;
+} */
+.mat-dialog-container{
+    padding: 0% !important;
+}
+
+/* Assign right section  */
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+.addNewUser-assign-rights{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.rights-button-setion{
+    display:grid;
+}
+.AddNewUser-button-style{
+    /* background: #FFFFFF;  */
+    width: 200px;
+    margin-top: 10px;
+    color: #fff;
+    background-color:#13928C;
+    /* border: solid;
+    border-width: 1.5px; */
+}
+.profile-image-button{    
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 113px;
+    height: 98px;
+}
+.profile-image-button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: .5s ease;
+    background-color: black;
+
+}
+
+.rights-checkbox-section{
+    width: 200px;
+}
+.add-new-user-save-btn{
+    width: 150px;
+}
+
+

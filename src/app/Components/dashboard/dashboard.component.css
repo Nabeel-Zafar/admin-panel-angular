@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+  }
+.table-button-search{
+    margin-top: -12px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+/* .table-search-field ::ng-deep .mat-form-field-infix{
+    margin-top: -10px;
+} */
+.table-add-user-button{
+    background:#3c928c;
+    color:#fff; 
+    margin-left: 20px;
+}
+.user-table-header{
+    color:#FFF;
+    background-color: #3c928c;
+    font-size: 16px;
+}
